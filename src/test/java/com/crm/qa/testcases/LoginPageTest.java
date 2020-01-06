@@ -32,7 +32,6 @@ public class LoginPageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown(){
-		System.out.println(" Adding a sample comment to check continuous integration");
 		driver.quit();
 	}
 	
