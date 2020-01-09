@@ -75,6 +75,5 @@ public class ExtentReporterNG implements IReporter {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
-		System.out.println();
 	}
 }
