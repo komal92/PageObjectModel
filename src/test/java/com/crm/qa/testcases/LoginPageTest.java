@@ -24,9 +24,8 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	@Test(priority=1)
-	public void loginPageTitleTest() throws Exception{
+	public void loginPageTitleTest() {
 		String title = loginPage.validateLoginPageTitle();
-		Thread.sleep(5000);
 		Assert.assertEquals(title, "Free CRM #1 cloud software for any business large or small");
 	}
 	
