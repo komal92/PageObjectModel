@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17907" started-at="2020-06-20T13:04:44Z" finished-at="2020-06-20T13:05:02Z">
+  <suite name="Default suite" duration-ms="19663" started-at="2020-06-20T13:13:56Z" finished-at="2020-06-20T13:14:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17907" started-at="2020-06-20T13:04:44Z" finished-at="2020-06-20T13:05:02Z">
+    <test name="Default test" duration-ms="19663" started-at="2020-06-20T13:13:56Z" finished-at="2020-06-20T13:14:15Z">
       <class name="com.crm.qa.testcases.Challenge2.LandingPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="9704" started-at="2020-06-20T18:34:44Z" finished-at="2020-06-20T18:34:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="11049" started-at="2020-06-20T18:43:56Z" finished-at="2020-06-20T18:44:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="landingPageTest()[pri:1, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@5e5792a0]" name="landingPageTest" duration-ms="7140" started-at="2020-06-20T18:34:54Z" finished-at="2020-06-20T18:35:01Z">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
+        <test-method status="FAIL" signature="landingPageTest()[pri:1, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@5e5792a0]" name="landingPageTest" duration-ms="7648" started-at="2020-06-20T18:44:07Z" finished-at="2020-06-20T18:44:14Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[invalid argument
+              <![CDATA[element click intercepted: Element <i class="fas fa-plus fa-accordion-icon"></i> is not clickable at point (452, 677). Other element would receive the click: <i class="fas fa-plus fa-accordion-icon"></i>
   (Session info: chrome=83.0.4103.106)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'XIPL9485', ip: '192.168.43.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\KHUKMA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64556}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ace3ecacd1be8522b9985b146c1f4b1a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\KHUKMA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 199b22806ec5905d136fc86d96d6f556]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="fas fa-plus fa-accordion-icon"></i> is not clickable at point (452, 677). Other element would receive the click: <i class="fas fa-plus fa-accordion-icon"></i>
   (Session info: chrome=83.0.4103.106)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'XIPL9485', ip: '192.168.43.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\KHUKMA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64556}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ace3ecacd1be8522b9985b146c1f4b1a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\KHUKMA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 199b22806ec5905d136fc86d96d6f556
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -40,16 +40,17 @@ Session ID: ace3ecacd1be8522b9985b146c1f4b1a
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy7.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
-	at com.crm.qa.pages.cpSatLandingPage.openGoogleNTranslate(cpSatLandingPage.java:100)
-	at com.crm.qa.testcases.Challenge2.LandingPageTest.landingPageTest(LandingPageTest.java:31)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
+	at com.crm.qa.pages.cpSatLandingPage.translateEachParagraph(cpSatLandingPage.java:83)
+	at com.crm.qa.testcases.Challenge2.LandingPageTest.landingPageTest(LandingPageTest.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -77,11 +78,11 @@ Session ID: ace3ecacd1be8522b9985b146c1f4b1a
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="1036" started-at="2020-06-20T18:35:01Z" finished-at="2020-06-20T18:35:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="932" started-at="2020-06-20T18:44:14Z" finished-at="2020-06-20T18:44:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

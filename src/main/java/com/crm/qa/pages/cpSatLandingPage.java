@@ -81,6 +81,8 @@ public class cpSatLandingPage extends TestBase{
 		int i=0;
 		for(WebElement paralinks:paragraphyLinks) {
 			paralinks.click();
+			System.out.println(languageContentList.get(i).getText().substring(7));
+			System.out.println(paragraphContentList.get(i).getText());
 			paraContentMap.put(languageContentList.get(i).getText().substring(7), paragraphContentList.get(i).getText());
 			/*
 			 * Message to the jury members- i tried using the CTRL+T for switching. However
@@ -93,12 +95,9 @@ public class cpSatLandingPage extends TestBase{
 			 * driver.get("www.google.com"); driver.switchTo().defaultContent();
 			 */
 		}
+		
 		return 	paraContentMap;	
 	}
 
-	public void openGoogleNTranslate(Map<String, String> languagePair) {
-		driver.get("www.google.com");
-		
-	}
 	
 }
