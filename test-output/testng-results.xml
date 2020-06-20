@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="18492" started-at="2020-06-20T13:19:09Z" finished-at="2020-06-20T13:19:28Z">
+  <suite name="Default suite" duration-ms="121554" started-at="2020-06-20T13:45:06Z" finished-at="2020-06-20T13:47:08Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases" duration-ms="18492" started-at="2020-06-20T13:19:09Z" finished-at="2020-06-20T13:19:28Z">
+    <test name="Default test" duration-ms="121554" started-at="2020-06-20T13:45:06Z" finished-at="2020-06-20T13:47:08Z">
       <class name="com.crm.qa.testcases.Challenge2.LandingPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@26653222]" name="setUp" is-config="true" duration-ms="10012" started-at="2020-06-20T18:49:09Z" finished-at="2020-06-20T18:49:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@63021689]" name="setUp" is-config="true" duration-ms="10908" started-at="2020-06-20T19:15:06Z" finished-at="2020-06-20T19:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="landingPageTest()[pri:1, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@26653222]" name="landingPageTest" duration-ms="7585" started-at="2020-06-20T18:49:19Z" finished-at="2020-06-20T18:49:27Z">
+        <test-method status="PASS" signature="landingPageTest()[pri:1, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@63021689]" name="landingPageTest" duration-ms="109579" started-at="2020-06-20T19:15:17Z" finished-at="2020-06-20T19:17:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@26653222]" name="tearDown" is-config="true" duration-ms="863" started-at="2020-06-20T18:49:27Z" finished-at="2020-06-20T18:49:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Challenge2.LandingPageTest@63021689]" name="tearDown" is-config="true" duration-ms="1030" started-at="2020-06-20T19:17:07Z" finished-at="2020-06-20T19:17:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.Challenge2.LandingPageTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
